@@ -28,7 +28,6 @@ int main()
     mhs.setEmail("riskanurohmah@upi.edu");
     mhs.setNim("2109103");
     mhs.setFakultas("FPMIPA");
-    mhs.setProdi("Ilkom");
     list_mhs.push_back(mhs); // memasukan data ke list mahasiswa
 
     Mahasiswa mhs2; // instansiasi objek Mahasiswa kedua

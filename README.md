@@ -6,14 +6,14 @@ Saya Riska Nurohmah [2109103] mengerjakan Latihan Praktikum 4 dalam mata kuliah 
 
 Pada program ini terdapat 6 Class yang semua atributnya bersifat private yaitu:
 1. Class Human, memiliki atribut nik, nama, dan gender.
-2. Class SivitasAkademik, memiliki atribut asal_univ dan email. Class SivitasAkademik merupakan anak dari Class Human, karena SivitasAkademik adalah manusia. Oleh karena itu, SivitasAkademik dapat mengakses method dari Class Human.
+2. Class SivitasAkademik, memiliki atribut asal_univ dan email. Class SivitasAkademik merupakan anak dari Class Human, karena SivitasAkademik adalah manusia. SivitasAkademik dapat mengakses method dari Class Human karena merupakan anak dari Class Human.
 3. Class Dosen, memiliki atribut nip, fakultas, pend_terakhir, dan keahlian. Class Dosen merupakan anak dari Class SivitasAkademik dan cucu dari Class Human karena Dosen merupakan bagian dari SivitasAkademik dan SivitasAkademik merupakan anak dari Human. Sehingga, Class SivitasAkademik dapat mengakses method yang ada pada Class SivitasAkademik maupun Class Human.
 4. Class Mahasiswa, memiliki atribut nim dan fakultas. Class Mahasiswa juga merupakan anak dari Class SivitasAkademik dan cucu dari Class Human karena Mahasiswa merupakan bagian dari SivitasAkademik dan SivitasAkademik merupakan anak dari Human. Oleh karena itu, Class Mahasiswa ini dapat mengakses method yang ada pada Class SivitasAkademik maupun Class Human.
 5. Class Course, memiliki atribut namaMatkul.
 6. Class ProgramStudi, memiliki atribut namaProdi dan kode. Class ProgramStudi juga memiliki atribut list dari objek Course, karena ProgramStudi has a Course.
 
 ## Alur Program
-Program menampilkan data mahasiswa dari list objek Mahasiswa dan data dosen dari list objek Dosen. Kemudian program juga menampilkan data atribut-atribut pada objek ProgramStudi.
+Program menampilkan data mahasiswa dari list objek Mahasiswa terdiri dari nik, nama, gender, asal universitas, email, nim, dan fakultas. Kemudian program juga menampilkan data dosen dari list objek Dosen yang terdiri dari nik, nama, gender, asal universitas, email, nip, fakultas, pendidikan terakhir, dan keahlian. Terakhir program menampilkan data atribut-atribut pada objek ProgramStudi terdiri dari namaProdi, kode, dan list objek Course.
 
 ## Dokumentasi
 ![Screenshot (332)](https://user-images.githubusercontent.com/119839421/223438161-5c1b8ff8-af0c-4494-9966-58bd6107acfa.png)

@@ -17,7 +17,6 @@ class Mahasiswa : public SivitasAkademik
 private:
     string nim;
     string fakultas;
-    string prodi;
 
     // deklarasi method public
 public:
@@ -35,11 +34,6 @@ public:
     {
         this->fakultas = fakultas;
     }
-    // method untuk mengset atribut prodi
-    void setProdi(string prodi)
-    {
-        this->prodi = prodi;
-    }
     // method untuk mengambil nilai atribut nim
     string getNim()
     {
@@ -50,12 +44,6 @@ public:
     {
         return this->fakultas;
     }
-    // method untuk mengambil nilai atribut prodi
-    string getProdi()
-    {
-        return this->prodi;
-    }
-
     // destruktor
     ~Mahasiswa()
     {

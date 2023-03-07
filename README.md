@@ -12,5 +12,8 @@ Pada program ini terdapat 6 Class yang semua atributnya bersifat private yaitu:
 5. Class Course, memiliki atribut namaMatkul.
 6. Class ProgramStudi, memiliki atribut namaProdi dan kode. Class ProgramStudi juga memiliki atribut list dari objek Course, karena ProgramStudi has a Course.
 
+## Alur Program
+Program menampilkan data mahasiswa dari list objek Mahasiswa dan data dosen dari list objek Dosen. Kemudian program juga menampilkan data atribut-atribut pada objek ProgramStudi.
+
 ## Dokumentasi
 ![Screenshot (332)](https://user-images.githubusercontent.com/119839421/223438161-5c1b8ff8-af0c-4494-9966-58bd6107acfa.png)

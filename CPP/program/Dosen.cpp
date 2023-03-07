@@ -17,7 +17,6 @@ class Dosen : public SivitasAkademik
 private:
     string nip;
     string fakultas;
-    string prodi;
     string pend_terakhir;
     string keahlian;
 
@@ -36,11 +35,6 @@ public:
     void setFakultas(string fakultas)
     {
         this->fakultas = fakultas;
-    }
-    // method untuk mengset atribut prodi
-    void setProdi(string prodi)
-    {
-        this->prodi = prodi;
     }
     // method untuk mengset atribut pend_terakhir
     void setPendTerakhir(string pend_terakhir)
@@ -61,11 +55,6 @@ public:
     string getFakultas()
     {
         return this->fakultas;
-    }
-    // method untuk mengambil nilai atribut prodi
-    string getProdi()
-    {
-        return this->prodi;
     }
     // method untuk mengambil nilai atribut pendTerakhir
     string getPendTerakhir()
